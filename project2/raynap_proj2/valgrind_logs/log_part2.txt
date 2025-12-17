@@ -1,0 +1,66 @@
+==3394117== Memcheck, a memory error detector
+==3394117== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3394117== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==3394117== Command: ./part2 -f input.txt
+==3394117== 
+test_script.sh
+Project 2 - Description.pdf
+part5.c
+part5
+part4.dSYM
+part4.c
+part4
+part3.dSYM
+part3.c
+part3
+part2.dSYM
+part2.c
+part2
+part1.dSYM
+part1.c
+part1
+Makefile
+log_part2.txt
+log_part1.txt
+iobound.c
+iobound
+input.txt
+cpubound.c
+cpubound
+..
+.
+Execvp: No such file or directory
+==3394120== 
+==3394120== HEAP SUMMARY:
+==3394120==     in use at exit: 592 bytes in 2 blocks
+==3394120==   total heap usage: 3 allocs, 1 frees, 8,784 bytes allocated
+==3394120== 
+==3394120== LEAK SUMMARY:
+==3394120==    definitely lost: 0 bytes in 0 blocks
+==3394120==    indirectly lost: 0 bytes in 0 blocks
+==3394120==      possibly lost: 0 bytes in 0 blocks
+==3394120==    still reachable: 592 bytes in 2 blocks
+==3394120==         suppressed: 0 bytes in 0 blocks
+==3394120== Reachable blocks (those to which a pointer was found) are not shown.
+==3394120== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==3394120== 
+==3394120== For lists of detected and suppressed errors, rerun with: -s
+==3394120== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+Process: 3394121 - Begining to write to file.
+Process: 3394121 - Finished.
+Process: 3394122 - Begining calculation.
+Process: 3394122 - Finished.
+Starting processes...
+Processes running: Sleeping for 2 seconds...
+Stopping processes...
+Processes stopped. Sleeping for 2 seconds...
+Continuing processes...
+==3394117== 
+==3394117== HEAP SUMMARY:
+==3394117==     in use at exit: 0 bytes in 0 blocks
+==3394117==   total heap usage: 4 allocs, 4 frees, 16,976 bytes allocated
+==3394117== 
+==3394117== All heap blocks were freed -- no leaks are possible
+==3394117== 
+==3394117== For lists of detected and suppressed errors, rerun with: -s
+==3394117== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
